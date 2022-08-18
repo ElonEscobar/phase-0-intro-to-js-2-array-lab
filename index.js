@@ -18,21 +18,21 @@ function destructivelyRemoveFirstCat(name){
 }
 
 function appendCat(name){
-    const newCats = [...cats , name];
-    return newCats;
+    const catsUpdated = [...cats , name];
+    return catsUpdated;
 }
 
 function prependCat(name){
-    const newCats = [name , ...cats];
-    return newCats;
+    const catsUpdated = [name , ...cats];
+    return catsUpdated;
 }
 
 function removeLastCat(){
-    const newCats = cats.slice(0,cats.length - 1);
-    return newCats;
+    const catsUpdated = cats.slice(0,cats.length - 1);
+    return catsUpdated;
 }
 
 function  removeFirstCat(){
-    const newCats = cats.slice(1);
-    return newCats;
+    const catsUpdated = cats.slice(1);
+    return catsUpdated;
 }
